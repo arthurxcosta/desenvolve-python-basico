@@ -1,6 +1,5 @@
-1- Informe um número entre 1 a 9 #Entrada
-2- Subtraia 1 do número escolhido
-3- Multiplique o resultado da subtração por 10
-4- Subtraia o número escolhido de 10
-5- Some o resultado da multiplicação com o resultado da última subtração
-6- Mostre o resultado final #Saída
+1- Leia e armazene o número n entre 1 a 9 #Entrada
+2- Subtraia n-1 e armazenar como primeiro dígito n1 #Processamento
+3- Subtraia 10-n e armazenar como segundo dígito n2 #Processamento
+4- Faça a expressão n1*10 + n2 e armazene o resultado como r #Processamento
+5- Mostre r e encerre o programa #Saída
