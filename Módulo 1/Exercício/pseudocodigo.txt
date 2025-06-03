@@ -1,0 +1,8 @@
+1- Inicio
+2- Leia n
+3- x = n - 1
+4- y = x * 10
+5- z = 10 - n
+6- a = y + z
+7- Imprima a
+8- Fim

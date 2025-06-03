@@ -1,0 +1,6 @@
+1- Informe um número entre 1 a 9 #Entrada
+2- Subtraia 1 do número escolhido
+3- Multiplique o resultado da subtração por 10
+4- Subtraia o número escolhido de 10
+5- Some o resultado da multiplicação com o resultado da última subtração
+6- Mostre o resultado final #Saída
