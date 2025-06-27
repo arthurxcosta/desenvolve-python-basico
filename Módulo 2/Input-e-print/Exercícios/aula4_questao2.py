@@ -4,8 +4,12 @@
 
 # 86 graus Fahrenheit são 30 graus Celsius.
 
-fahrenheit = int(input('Qual a temperatura em graus Fahrenheit? '))
-celsius = ((fahrenheit -32) * (5/9))
-celsius = int(celsius)
+# Leitura de dados (Entrada)
+fahrenheit = int(input('Digite a temperatura em graus Fahrenheit: '))
 
+# Processamento de dados
+celsius = ((fahrenheit -32) * (5/9))
+celsius = int(celsius) # Conversão de valor para inteiro
+
+# Impressão de dados (Saída)
 print(fahrenheit, f"graus Fahrenheit são {celsius} graus Celsius.")
