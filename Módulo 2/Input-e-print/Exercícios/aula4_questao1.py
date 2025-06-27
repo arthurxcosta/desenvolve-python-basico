@@ -6,12 +6,12 @@
 # largura = 25
 # preco_m2 = 2049.96
 
-comprimento = int(input('Qual o comprimento do terreno? '))
-largura = int(input('Qual a largura do terreno? '))
+comprimento = int(input('Digite o comprimento do terreno? '))
+largura = int(input('Digite a largura do terreno? '))
 area_m2 = comprimento*largura
 area_m2 = int(area_m2)
 
-preco_m2 = float(input('Qual o valor do terreno? '))
+preco_m2 = float(input('Digite o valor do m2? '))
 preco_total = preco_m2*area_m2
 preco_total = float(preco_total)
 
