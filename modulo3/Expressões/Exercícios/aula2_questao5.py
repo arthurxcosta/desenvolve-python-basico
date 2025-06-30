@@ -9,7 +9,7 @@ idade   = int(input('Qual sua idade? '))
 servico = int(input('Quanto tempo de serviço você tem (em anos)? '))
 
 # Processamento
-aposentar = ((genero == 'M' and (idade > 65 or servico >= 30)) or (idade >= 60 and servico >= 25)) or ((genero == 'F' and (idade > 60 or servico >= 30)) or (idade >= 60 and servico >= 25))
+pode_aposentar = ((genero == 'M' and (idade > 65 or servico >= 30)) or (idade >= 60 and servico >= 25)) or ((genero == 'F' and (idade > 60 or servico >= 30)) or (idade >= 60 and servico >= 25))
 
 # Saída de dados
-print('Você já pode se aposetar:', aposentar)
+print('Você já pode se aposetar:', pode_aposentar)
