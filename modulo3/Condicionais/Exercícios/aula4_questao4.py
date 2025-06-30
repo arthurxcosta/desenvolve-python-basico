@@ -9,10 +9,11 @@ peso        = float(input('Qual o peso do pacote (em quilogramas)? '))
 
 if distancia <= 100:
     preco = 1.0
-elif distancia <= 300:
-    preco = 1.5
 else:
-    preco = 2.0
+    if distancia <= 300:
+        preco = 1.5
+    else:
+        preco = 2.0
 
 frete = peso * preco
 
