@@ -1,0 +1,10 @@
+monitor
+gabinete
+garrafa
+fone
+teclado
+mouse
+camera
+impressora
+porta
+carregador
